@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+}
+
+
+.body-container {
+	display: flex;
+	justify-content: center;
+}
+
+.grid-container {
+	display: inline-grid;
+	width: 600px;
+	height: 600px;
+	background-color: gray;
+}
+
+.grid-item {
+	background-color: black;
+	border: 2px double darkgreen;
+}
+
+.grid-item:hover{
+	background-color: aqua;
+}
+
+.fillBox {
+	background-color: red;
+}
+
+.headerBtn {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.newGridBtn {
+	background-color: lightskyblue;
+	font-size: 20px;
+}
+
+.resetGridBtn {
+	color: blue;
+	margin-left: 20px;
+}
